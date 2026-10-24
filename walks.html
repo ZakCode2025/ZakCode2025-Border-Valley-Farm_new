@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enjoy scenic walking trails, countryside views, wildlife watching, and audio trails.">
+    <meta name="keywords" content="Farm walks, nature trails, countryside walking, Scottish borders trail">
+    <meta name="author" content="Border Valley Farm Ltd">
+    <title>Farm Walks & Trails | Border Valley Farm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1>Farm Walks & Nature Trails</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="shop.html">Farm Shop</a>
+        <a href="cafe.html">Cafe</a>
+        <a href="zoo.html">Petting Zoo</a>
+        <a href="walks.html" class="active">Walks & Trails</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <main class="wrapper container printable-area">
+        <section class="editable-content">
+            <h2>Explore Our Countryside Trails</h2>
+            <p>Take a relaxing walk along our clearly marked 1-mile and 3-mile nature trails winding through open pastures, wildflower meadows, and woodland paths along the river valley.</p>
+
+            <!-- MULTIMEDIA ELEMENT (Audio Player) -->
+            <h3>🔊 Nature Trail Audio Guide</h3>
+            <p>Listen to our ambient countryside audio guide while you walk:</p>
+            <video controls style="width: 100%; margin-bottom: 20px; border-radius: 8px;">
+                <source src="Imeges/cock_sound.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- PRINT OPTION 2 -->
+            <h3>Printable Trail Map</h3>
+            <p>Download or print our site trail map before embarking on your walk:</p>
+            <button onclick="window.print()" class="no-print" style="padding:10px 20px; background:#2D5A27; color:#fff; border:none; border-radius:4px; cursor:pointer;">
+                🖨️ Print Walking Trail Map
+            </button>
+        </section>
+
+        <!-- FIXED IMAGE SOURCE -->
+        <aside class="editable-content">
+            <img src="Imeges/Wolking_track.jpg" alt="Walking Trail Countryside" style="width:100%; border-radius:8px;">
+            <p>Picturesque walking paths suitable for all fitness levels.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <p>Email: <a href="mailto:info@bordervalleyfarm.co.uk">info@bordervalleyfarm.co.uk</a></p>
+        </div>
+    </footer>
+</body>
+</html>
